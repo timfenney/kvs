@@ -1,0 +1,22 @@
+{
+  "bin": {
+    "kvs": "./index.js"
+  },
+  "name": "kvs",
+  "version": "1.0.0",
+  "description": "A key-value store",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "rmfr": "^2.0.0"
+  }
+}
