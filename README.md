@@ -50,6 +50,8 @@ Warts
 
 One horrifying problem I didn't look into was a solution to find an appropriate home for the db. The tests passed with it using a directory in the current directory, but this implementation is still a bug. The right way to solve this is to ensure one has a platform-independent way to store app-related stuff. I have only really programmed for Linux/UNIX environments, so I didn't get any farther into this. For a sort of toy type of tool, I would lean towards a `.kvs` folder in the User's home directory, but I don't know how appropriate this is for Windows.
 
+Other than that, it could use some improved error messages, like a proper usage example printed out when bad input is received.
+
 Data Races
 ----------
 
