@@ -11,6 +11,10 @@ It's a command line program with 3 keywords: add, get, init, and remove.
 Examples
 --------
 
+`kvs init`
+blows away any existing data if present, and creates a fresh store
+_do this first, before other operations_
+
 `kvs add [key] [value]`
 stores the given value at the specified key
 
@@ -20,8 +24,6 @@ retrieves the currently stored value for the given key
 `kvs remove [key]`
 removes the value, if any, stored for the given key from the store
 
-`kvs init`
-blows away any existing data if present, and creates a fresh store
  
 Approach - Coding
 -----------------
